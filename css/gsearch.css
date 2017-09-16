@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'Mi7';
+	src: url('/fonts/Mi7.eot?d7kxe5');
+	src: url('/fonts/Mi7.eot?d7kxe5#iefix') format('embedded-opentype'), url('/fonts/Mi7.ttf?d7kxe5') format('truetype'), url('/fonts/Mi7.woff?d7kxe5') format('woff'), url('/fonts/Mi7.svg?d7kxe5#Mi7') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+
+article{
+	padding:0 100px 0 100px;
+}
+
+/*--------------------------------------------------*/
+
+/* Inactive refinement tab properties */
+.gsc-tabHeader.gsc-tabhInactive {
+	background: #E9E9E9!important;
+	border-bottom:1px solid #ccc!important;
+}
+header {
+	position:absolute;
+	top:22px;
+	left:35px;
+}
+
+.header h1 {
+	font-family: 'Mi7', sans-serif;
+	font-size: 24px;
+	letter-spacing: 2px;
+	line-height: 28px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	color: black;
+}
+.gsc-control-cse{
+	width:600px!important;
+}
+input.gsc-search-button-v2 {
+	padding: 5px 27px!important;
+	margin-top:0!important;
+	height: 15px !important;
+}
